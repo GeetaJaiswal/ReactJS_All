@@ -1,0 +1,58 @@
+.s-code {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.s-code__item {
+  position: relative;
+}
+
+.s-code__layer {
+  background-color: #fff;
+  position: absolute;
+  height: 110px;
+  padding: 30px;
+  width: 100%;
+  bottom: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  pointer-events: none;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.s-code__button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  line-height: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #C7CDDE;
+}
+
+.b-code {
+  padding: 30px;
+  border-radius: 2px;
+  border: solid 1px #C7CDDE;
+  background-color: rgba(199, 205, 222, 0.3);
+  overflow-x: auto;
+}
+
+.b-code pre {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.b-code .hljs-keyword,
+.b-code .hljs-selector-tag,
+.b-code .hljs-subst {
+  color: #07a;
+}
+
+.b-code.__hidden {
+  height: 140px;
+  overflow-y: hidden;
+}
+/*# sourceMappingURL=styles.css.map */

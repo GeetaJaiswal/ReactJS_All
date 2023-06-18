@@ -1,0 +1,53 @@
+.header {
+  width: 100%;
+  min-width: 320px;
+  background-color: #3f51b5;
+}
+
+.header-row {
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  min-width: 320px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: auto;
+  overflow-x: hidden;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  color: #fff;
+  text-align: left;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  margin: 0;
+  font-style: italic;
+  display: inline-block;
+}
+
+.logo-badge {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.repo-link {
+  color: #fff;
+  text-decoration: none;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=styles.css.map */

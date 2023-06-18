@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.quantity-ul {
+  display: flex;
+  list-style: none;
+}
+
+.count {
+  width: 100px;
+  line-height: 36px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #dee2e6;
+  outline: none;
+}
+

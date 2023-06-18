@@ -1,0 +1,102 @@
+body{
+  //margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+$color:#4e1067e0;
+$icon-font-size : 17px;
+
+.row{
+  background-color: $color;
+  padding: 60px 0px 130px 0px;
+}
+
+.col-lg-4.box {
+  width: 400px;
+  height:450px;
+  background-color: white;
+  padding: 30px 30px 30px 30px;
+  overflow-y:scroll;
+  box-shadow: 2px 1px 1px 1px #a543ccc2;
+
+  & h5{
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    color: $color;
+  }
+
+  & input[type="text"]
+  {
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left:15px;
+    outline: none;
+    padding: 2px 10px 2px 10px;
+    border-color: cadetblue;
+  }
+
+  & .add-icon {
+    margin-left: 280px;
+    margin-top: -60px;
+    color: $color;
+    font-size: $icon-font-size;
+    cursor: pointer;
+  }
+
+  .edit-icon{
+    font-size: 17px;
+  }
+
+  .del-icon{
+    font-size: $icon-font-size;
+  }
+
+  & .delete-all{
+    background-color: $color;
+    color:white;
+    margin-left: 80px;
+    margin-top:20px;
+  }
+  
+  & .delete-all-icon{
+    font-size: $icon-font-size;
+    margin-right: 5px;
+  }
+
+  & .edit-del{
+    margin-left: 20px;
+  }
+
+  & .edit-bg{
+    background-color: $color;
+    color: white;
+  }
+
+  & .del-bg{
+    background-color: red;
+    color: white;
+  }
+
+  & .btn-list-item{
+    margin-bottom: 20px;
+  }
+}
+
+// .delete-all::before {
+//   // content: attr(data-sm-link-text);
+//   // display: none;
+//   // position: absolute;
+//   // left: 0;
+//   // right: 0;
+//   // margin: auto;
+// }
+
+
+// .delete-all:hover::before {
+//   display:block;
+// }
+
